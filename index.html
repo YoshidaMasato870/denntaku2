@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" 
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <input type="text" class="display" value="" disabled><br>
+    <input type="button" class="b7" value="7" onclick="addNumber(this)">
+    <input type="button" class="b8" value="8" onclick="addNumber(this)">
+    <input type="button" class="b9" value="9" onclick="addNumber(this)">
+    <input type="button" class="bplus" value="+" onclick="addPlusMinus(this)"><br>
+    <input type="button" class="b4" value="4" onclick="addNumber(this)">
+    <input type="button" class="b5" value="5" onclick="addNumber(this)">
+    <input type="button" class="b6" value="6" onclick="addNumber(this)">
+    <input type="button" class="bminus" value="-" onclick="addPlusMinus(this)"><br>
+    <input type="button" class="b1" value="1" onclick="addNumber(this)">
+    <input type="button" class="b2" value="2" onclick="addNumber(this)">
+    <input type="button" class="b3" value="3" onclick="addNumber(this)">
+    <input type="button" class="bmulti" value="*" onclick="addArithmeticSymbol(this)"><br>
+    <input type="button" class="b0" value="0" onclick="addNumberZero(this)">
+    <input type="button" class="b00" value="00" onclick="addNumberZero2(this)">
+    <input type="button" class="bcolon" value="." onclick="addColon(this)">
+    <input type="button" class="bslash" value="/" onclick="addArithmeticSymbol(this)"><br>
+    <input type="button" class="bAC"  value="AC" onclick="clearNumber()">
+    <input type="button" class="bequal" value="=" onclick="caluculateNumber()">
+
+    <script src="main.js"></script>
+  </body>
+</html>

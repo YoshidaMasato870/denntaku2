@@ -1,0 +1,91 @@
+.display{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    background-color: black;
+    width: 374px;
+    height: 60px;
+}
+.b7{
+    padding: 5px 40px;
+    font-size: 20px;
+}
+.b8{
+    padding: 5px 40px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b9{
+    padding: 5px 40px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+.bplus{
+    padding: 5px 40px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b4{
+    padding: 5px 40px;
+    font-size: 20px;
+}
+.b5{
+    padding: 5px 40px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b6{
+    padding: 5px 40px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+.bminus{
+    padding: 5px 42.5px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b1{
+    padding: 5px 40px;
+    font-size: 20px;
+}
+.b2{
+    padding: 5px 40px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b3{
+    padding: 5px 40px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+.bmulti{
+    padding: 5px 42px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.b0{
+    padding: 5px 40px;
+    font-size: 20px;
+}
+.b00{
+    padding: 5px 35px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.bcolon{
+    padding: 5px 42px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+.bslash{
+    padding: 5px 43px;
+    font-size: 20px;
+    margin-left: -5px;
+}
+.bAC{
+    padding: 10px 85px;
+}
+.bequal{
+    padding: 10px 88px;
+    margin-left: -5px;
+}
